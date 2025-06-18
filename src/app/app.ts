@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { MfeStepComponent } from './mfe-step/mfe-step';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [MfeStepComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
