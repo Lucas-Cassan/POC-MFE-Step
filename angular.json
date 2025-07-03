@@ -27,6 +27,11 @@
 								"glob": "**/*",
 								"input": "public",
 								"output": "."
+							},
+							{
+								"glob": "remoteEntry.js.sig",
+								"input": "dist/mfe-step",
+								"output": "./"
 							}
 						],
 						"styles": [
